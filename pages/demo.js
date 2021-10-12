@@ -20,7 +20,7 @@ export default function Page () {
       Email: {email ? <p>{email}</p>: ''}
       <br/>
       <FacebookLogin
-        appId="389804239452408"
+        appId="1114474835696982"
         fields="name,email,picture"
         callback={responseFacebook}
         cssClass="my-facebook-button-class"
