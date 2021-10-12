@@ -16,7 +16,8 @@ export default function Page () {
   return (
     <Layout>
       <h1>Demontsrate Social login</h1>
-      {email ? <p>{email}</p>: ''}
+      Email: {email ? <p>{email}</p>: ''}
+      <br/>
       <FacebookLogin
         appId="389804239452408"
         fields="name,email,picture"
