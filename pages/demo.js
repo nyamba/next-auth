@@ -8,8 +8,9 @@ export default function Page () {
 
   
   const responseFacebook = (response) => {
-    const {email} = response;
-    console.log(response);
+    const {email} = response
+    setEmail(emal)
+    console.log(response)
   }
 
 
